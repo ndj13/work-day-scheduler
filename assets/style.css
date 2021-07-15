@@ -1,0 +1,79 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    padding: 10px;
+    color: black;
+    border-left: 1px solid black;
+  }
+  
+
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+    padding-right: 50px;
+  }
+  
+
+  .row {
+    white-space: pre-wrap;
+    height: 10em;
+    border-top: 1px solid white;;
+  }
+  
+
+  .hour {
+    background-color: white;
+    color: black;
+    border-top: 1px dashed black;
+    padding-right: 50px;
+  }
+  
+  .past {
+    background-color: whitesmoke;
+    color: white;
+  }
+  
+
+  .present {
+    background-color: red;
+    color: white;
+  }
+  
+
+  .future {
+    background-color: greenyellow;
+    color: white;
+  }
+
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: lightblue;
+    color: white;
+  }
+  
+
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
